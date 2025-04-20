@@ -1,5 +1,9 @@
 .main{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,4 +17,13 @@ a{
 }
 body{
     background-color: black;
+}
+p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif00;
+    font-size: 21px;
+    color: gray;
+}
+img[src*="/resource/phone.png"]{
+    margin: 2%;
 }
